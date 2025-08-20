@@ -2,7 +2,7 @@ import java.util.*;
 
 public class switchop {
     public static void main(String[] args){
-        System.out.println("enter a nuber from 1-7:");
+        System.out.println("enter a number from 1-7:");
         Scanner ob= new Scanner(System.in);
         int day=ob.nextInt();
         

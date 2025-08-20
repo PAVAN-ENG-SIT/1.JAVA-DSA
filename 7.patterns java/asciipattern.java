@@ -1,20 +1,20 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class asciipattern {
-    public static void main(String[] args) {
+// public class asciipattern {
+//     public static void main(String[] args) {
         
-        Scanner obj = new Scanner(System.in);
+//         Scanner obj = new Scanner(System.in);
         
-        int n=obj.nextInt();
-        for(int i=1;i<=n;i++){
-                for(int j=0;j<i;j++){            
+//         int n=obj.nextInt(); 
+//         for(int i=1;i<=n;i++){
+//                 for(int j=0;j<i;j++){            
 
-    System.out.print((char)(65+j));
-            }
-            System.out.println();
-        }
-    }
-}
+//     System.out.print((char)(65+j));
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
 
 /*
@@ -58,3 +58,23 @@ public class asciipattern {
 
 
   */
+public class asciipattern{
+    public static void main(String[] args){
+        int a =65;
+        // char b='C';
+        // System.out.println((int)(b));
+        for(int i=0;i<=5;i++){
+            for (int j=0;j<i;j++){
+                System.out.print((char)(a+j));
+            }
+            System.out.print("\n");
+        }
+    }
+}
+
+
+
+
+
+
+

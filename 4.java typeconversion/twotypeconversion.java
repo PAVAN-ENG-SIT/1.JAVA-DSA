@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class twotypeconversion {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         float a, b;                      
         Scanner sc = new Scanner(System.in); 
 
