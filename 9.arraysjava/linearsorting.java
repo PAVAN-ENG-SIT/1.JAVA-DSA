@@ -3,6 +3,9 @@
 
 
 public class linearsorting {
+    public static void main(String[] args){
+        
+    }
     
 }
 
