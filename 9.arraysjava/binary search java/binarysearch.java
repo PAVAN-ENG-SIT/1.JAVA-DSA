@@ -49,23 +49,8 @@ public class binarysearch {
         }
             }
 
- static void reverse(int[] arr){
-    //first we will initialize low,high 
-    // first we write while loop
-    //then we will use temp to 
-    
-    int span =0,low= 0,high=arr.length-1;
-    int n=arr.length;
-    // for (int i=0;i<=n;i++){
-        while(low<=high-1){
-            span=arr[high];
-            arr[low]=arr[high];
-            arr[high]=span;
 
-        }
-         
         
-    }
  
     
 
